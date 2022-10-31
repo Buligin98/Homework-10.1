@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.lamp {
+  width: 700px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 50px auto;
+}
+
+.lamp p {
+  width: 100px;
+  padding: 14px;
+  background-color: #bdbdbd;
+  text-align: center;
+  color: #bdbdbd;
+}
+
+.lamp .on {
+  background-color: #3ff707;
+}
+
+.lamp .off {
+  background-color: #f70707;
+}
+
+.lamp p:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.universal {
+  margin: 10px auto;
+  background-color: #e6ff01;
+  width: 100px;
+  padding: 14px;
+  text-align: center;
+}
+.universal:hover {
+  background-color: #bdbdbd;
+  cursor: pointer;
+}
