@@ -7,14 +7,16 @@ let off = () => {
 };
 
 let universal = () => {
-  console.log(document.getElementById("light").src);
+  // console.log(document.getElementById("light").src);
 
-  img = document.getElementById("light").src =
-    "http://127.0.0.1:5500/img/off.png";
+  let image = document.getElementById("light").src;
+  img = "file:///C:/Users/ads/Desktop/Daniil%20Buligini%20Homework/Homework%2010.1/img/off.png";
 
-  if (img == "http://127.0.0.1:5500/img/off.png") {
-    document.getElementById("light").src = "img/on.png";
+  if (image == img) {
+    // document.getElementById("light").src = "img/on.png";
+    on();
   } else {
-    document.getElementById("light").src = "img/off.png";
+    // document.getElementById("light").src = "img/off.png";
+    off();
   }
 };
