@@ -19,7 +19,7 @@
   padding: 14px;
   background-color: #bdbdbd;
   text-align: center;
-  color: #bdbdbd;
+  color: #000000;
 }
 
 .lamp .on {
@@ -27,7 +27,7 @@
 }
 
 .lamp .off {
-  background-color: #f70707;
+  background-color: #ff0000;
 }
 
 .lamp p:hover {
@@ -37,12 +37,12 @@
 
 .universal {
   margin: 10px auto;
-  background-color: #e6ff01;
+  background-color: #3ff707;
   width: 100px;
   padding: 14px;
   text-align: center;
 }
-.universal:hover {
+/* .universal:hover {
   background-color: #bdbdbd;
   cursor: pointer;
-}
+} */
